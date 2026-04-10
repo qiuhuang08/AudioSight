@@ -1,6 +1,6 @@
 [English](README.md) | [中文](README_zh.md)
 
-# AudioSight —— Next‑Gen Audio Analysis / Calibration / Design Platform
+# AudioSight —— Next‑Gen Audio Analysis / Calibration Platform
 
 **AudioSight** is a professional audio platform with a flexible, programmable DSP architecture and a full‑featured visualization engine. Powered by precise measurement and an intelligent AutoEQ algorithm, it creates a next‑generation solution that unifies audio analysis and calibration.
 
