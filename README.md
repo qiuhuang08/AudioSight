@@ -1,103 +1,58 @@
-# AudioSight —— 下一代音频分析 / 校准 / 设计平台
+[English](README.md) | [中文](README_zh.md)
 
-AudioSight 是一款完全自主设计的专业音频工具。从底层信号处理到上层图形渲染，我们构建了一套**灵活、可编程的 DSP 架构**与**全场景可视化引擎**；自研的 AutoEQ 算法实现了极致易用与风格化调音的统一，并首创“目标处理链”工作流。
+# AudioSight —— Next‑Gen Audio Analysis / Calibration / Design Platform
 
-**AudioSight，为专业音频工作者提供可信、易用、可进化的新一代平台。**
-
----
-
-## 核心理念 · 科学调音
-
-AudioSight 的终极使命，是**将音频中那些“玄学”的部分，变得可见、可测、可量化**。
-
-我们坚信，好的声音不是靠感觉碰出来的，而是基于严谨数据与科学方法的持续优化。我们致敬哈曼卡顿、Bose、真力等行业先驱——正是他们的研究为“什么是好声音”提供了可量化的参考。
-
-AudioSight 希望在这一方向上，为音频工作者与爱好者提供一个**诚实、可靠、可验证**的工具平台。让每一次调音都有据可依，让科学调音的理念被更多人接受与实践。
-
-**这是我们的初心，也是我们持续前行的动力。**
+**AudioSight** is a professional audio tool platform featuring a flexible, programmable audio processing architecture and a full‑featured visualization engine. With its intelligent AutoEQ algorithm and the innovative target‑processing chain workflow, AudioSight delivers an all‑in‑one next‑generation solution for audio analysis, calibration, and design.
 
 ---
 
-## 设计哲学 · 专业，但不止于专业
+## 🎯 Core Philosophy: Scientific Tuning
 
-AudioSight 的设计哲学可以概括为：**严谨的算法内核，极简的交互外表。**
+Break the “audio mystique” barrier — make sound **observable, measurable, and quantifiable**.
 
-### 专业，体现在算法而非复杂度
-
-我们坚信，专业工具的价值不在于功能堆砌，而在于**每一个数据都经得起推敲**。
-
-- **物理因果优先**：所有展示的数据都必须具备明确的物理意义，非物理意义的结果不展示。
-
-- **自验证与自纠错**：算法链路中内置了多层校验逻辑——输入数据的有效性检查、中间结果的合理性判定、最终输出的交叉验证。避免用户被错误数据误导。
-
-### 易懂，体现在交互而非说明书
-
-专业功能不等于复杂操作。AudioSight 的界面设计遵循**零层级菜单**原则——所有核心控件都置于表面，无需在多层弹窗中反复跳转。
-
-- **现代交互方式**：拖拽导入曲线、画布上直接拖拽曲线偏移、鼠标滚轮缩放视图、右键快速访问上下文操作……一切符合直觉，学习成本极低。
-
-- **所见即所得**：每项调整都能立即看到视觉反馈与数据变化，无需“确认‑应用‑查看”的割裂流程。
+We believe great sound comes not from guesswork but from rigorous data and scientific methods. Honoring industry pioneers like Harman Kardon, Bose, and Genelec, AudioSight provides an objective, reliable, and verifiable platform for audio professionals and enthusiasts. Every adjustment is evidence‑based, promoting the widespread adoption of scientific tuning.
 
 ---
 
-## 自研 DSP 核心 · 灵活架构，无限可能
+## 🧠 Design Philosophy: Rigorous Core, Minimalist Interaction
 
-AudioSight 的信号处理核心完全自主设计，摆脱了传统音频分析框架的固定路径束缚。我们构建了一套**可二次编程的领域特定语言（DSL）**，将底层 DSP 能力封装为高层次的语义模块，实现了真正意义上的“架构可编程”。
+- **Professionalism through algorithmic precision, not feature bloat**  
+  Every piece of data adheres to physical principles; invalid or misleading results are automatically filtered out. A multi‑layer self‑validation system actively detects and warns against anomalies (e.g., clipping, poor SNR, clock drift), preventing erroneous guidance.
 
-- **弹性数据流**：根据场景自由组织的数据流图——无论是单通道实时频谱、双通道传递函数，还是未来的多通道声场映射，都能在同一架构下高效运行。
-
-- **原子能力组合**：信号采集、测量分析、校正处理三大原子能力，可以像乐高一样灵活组合。从“频响曲线查看”到“全自动房间声学校正”，从“单点测量”到“多通道阵列扫描”，**几乎任何你能想到的音频分析流程，都能通过这套架构实现**。
-
-这一设计让 AudioSight 不仅满足当下的测量需求，更为**下一代音频分析、校准与设计**预留了充足的进化空间。
+- **Professionalism through intuitive interaction, not complexity**  
+  Zero‑layer menu design puts core functions within one click. Drag‑and‑drop, zooming, and other natural gestures offer a WYSIWYG experience, lowering the entry barrier for professional tools.
 
 ---
 
-## 自研渲染管线 · 全场景可视化引擎
+## ⚙️ Three Core Technologies
 
-AudioSight 的图形渲染层完全自主构建，是一套**综合性的可交互渲染引擎**。它融合了多种渲染策略，根据数据特征与视图场景自动选择最优方案，确保在任何情况下都能提供流畅、清晰的视觉体验。
+### 1. Flexible DSP Core
+Breaks free from traditional fixed‑path frameworks. Elastic data flow adapts to various scenarios, while modular core capabilities can be freely combined. Supports seamless feature expansion, balancing current needs with future technological evolution — a flexible, infinitely scalable architecture.
 
-- **多视图统一调度**：无论是频响曲线的精细描画、光谱图的能量分布，还是示波器的实时波形、脉冲响应的时域细节，所有视图都由同一套渲染内核统一调度，风格一致、交互统一。
+### 2. Full‑Scene Visualization Engine
+A fully autonomous rendering pipeline that uniformly schedules multiple data view types. Intelligent layered rendering ensures smooth and efficient performance. Real‑time visual feedback with no perceptible delay — clear data presentation and fluid control.
 
-- **智能渲染策略**：针对静态标注（网格、刻度、标签）与动态数据（实时曲线、滚动光谱），引擎采用分层渲染与差异化刷新策略，既保证实时数据的高帧率更新，又避免无效重绘对系统资源的浪费。
-
-- **所见即所得的交互**：缩放、平移、图例开关、曲线拖拽——所有操作都以视觉反馈即时响应，无延迟、无卡顿。多条曲线叠加时，依然保持清晰的可读性与流畅的操控感。
-
-这一自研渲染管线，让 AudioSight 在**数据可视化层面同样具备“下一代平台”应有的素质**——不仅看得清，更看得顺、玩得转。
-
----
-
-## 自研 AutoEQ 算法 · 智能校准的新范式
-
-AudioSight 的自动 EQ 校准算法完全自主设计，核心目标是**极致易用与风格化调音的完美统一**。
-
-- **开箱即用，无需繁琐配置**：传统 AutoEQ 需要手动设置频率范围、低频滚降点等参数，而 AudioSight 的算法能够自动识别有效频段、智能判断边界条件。**绝大多数场景下，您只需导入测量曲线，点击计算，即可获得相当出色的校准结果。**
-
-- **风格化生成，精准可控**：算法支持多种生成策略——**精准模式**面向监听级调音，追求最小误差；**自然模式**则用最少的滤波器实现最平滑、最耐听的听感。从专业混音到日常聆听，一套 EQ 满足不同审美。
-
-- **目标处理链：从“调 EQ”到“调目标”的范式转变**：传统工作流是“测曲线 → 调 EQ → 看响应”，而 AudioSight 引入了**目标曲线处理链**——您可以像编辑 EQ 一样直接编辑目标曲线：提升某个频段、添加高通滤波、模仿某款经典音箱的声底……**所有编辑都会自动转化为最终的 EQ 滤波器**。您不再需要关心频响曲线长什么样，只需专注于“我想要的声音”，剩下的交给算法。
-
-这一自研 AutoEQ 引擎，让校准从“技术活”变成了“创意活”，为**下一代音频设计**打开了全新可能。
+### 3. Intelligent AutoEQ Algorithm
+- One‑click auto‑calibration, no tedious setup required  
+- Multiple tuning modes (precision for monitoring, natural for casual listening)  
+- Pioneering **target‑processing chain**: shift from “adjusting parameters” to “defining sonic goals” — making calibration simpler and more creative.
 
 ---
 
-## 发展与展望
+## 📌 Version & Roadmap
 
-### 1.0 版本 · “元”（Origin）
+### 1.0 Release — “Origin”
+The first full implementation of the architecture. Delivers spectrum analysis, transfer function measurement, and a complete PEQ tuning closed loop. Focuses on refining core measurement and calibration functions to provide a solid, high‑quality foundation.
 
-AudioSight 1.0 版本代号“元”（Origin），寓意**回归本源、从零构建**。这是我们自研架构的首次完整落地：
+### Future Plans
+- FIR filter calculation for precise phase correction  
+- Room acoustic correction (from device calibration to space calibration)  
+- Multi‑channel analysis (surround sound, array measurements)  
 
-- 实现了单通道频谱分析与双通道传递函数测量
-- 构建了完整的 PEQ 生态：**测量 → 校正 → 试听**，形成闭环调音工作流
-- 验证了自研 DSP 核心、渲染管线与 AutoEQ 算法的可行性与稳定性
+Covering the full spectrum of professional audio scenarios.
 
-这是一个起点。我们选择先做“少而精”——将测量与 PEQ 调音的每个环节打磨到足够严谨、足够易用，再以此为基础向外延伸。
-
-### 未来规划
-
-- **FIR 滤波器计算**：支持更精细的相位校正与卷积处理
-- **房间声学校正**：从“设备校准”扩展到“空间校准”
-- **多通道分析**：支持环绕声系统、阵列测量等复杂场景
-- **......**
 ---
 
-AudioSight 以自研 DSP 核心、自研渲染管线、自研音频算法为三大支柱，坚守“科学调音”的初心与“严谨算法、简洁交互”的设计哲学，致力于成为音频工作者手中可信、易用、可进化的新一代平台。
+## ✨ Summary
+
+**AudioSight** rests on three core pillars: the flexible DSP architecture, the visualization engine, and the intelligent AutoEQ algorithm. Staying true to the philosophy of scientific tuning and rigorous simplicity, it builds a professional, trustworthy, easy‑to‑use, and ever‑evolving next‑generation audio workstation.
