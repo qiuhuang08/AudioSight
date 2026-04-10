@@ -2,7 +2,7 @@
 
 # AudioSight —— Next‑Gen Audio Analysis / Calibration / Design Platform
 
-**AudioSight** is a professional audio tool platform featuring a flexible, programmable audio processing architecture and a full‑featured visualization engine. With its intelligent AutoEQ algorithm and the innovative target‑processing chain workflow, AudioSight delivers an all‑in‑one next‑generation solution for audio analysis, calibration, and design.
+**AudioSight** is a professional audio platform with a flexible, programmable DSP architecture and a full‑featured visualization engine. Powered by precise measurement and an intelligent AutoEQ algorithm, it creates a next‑generation solution that unifies audio analysis and calibration.
 
 ---
 
