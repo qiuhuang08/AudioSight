@@ -53,6 +53,5 @@ Covering the full spectrum of professional audio scenarios.
 
 ---
 
-## ✨ Summary
 
 **AudioSight** rests on three core pillars: the flexible DSP architecture, the visualization engine, and the intelligent AutoEQ algorithm. Staying true to the philosophy of scientific tuning and rigorous simplicity, it builds a professional, trustworthy, easy‑to‑use, and ever‑evolving next‑generation audio workstation.
