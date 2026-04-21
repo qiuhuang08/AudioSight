@@ -35,7 +35,6 @@ A fully autonomous rendering pipeline that uniformly schedules multiple data vie
 ### 3. Intelligent AutoEQ Algorithm
 - One‑click auto‑calibration, no tedious setup required  
 - Multiple tuning modes (precision for monitoring, natural for casual listening)  
-- Pioneering **target‑processing chain**: shift from “adjusting parameters” to “defining sonic goals” — making calibration simpler and more creative.
 
 ---
 
