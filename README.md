@@ -2,8 +2,7 @@
 
 # AudioSight —— Acoustic Platform Dedicated to Scientific Tuning
 
-**AudioSight** is a professional audio platform with a flexible, programmable DSP architecture and a full‑featured visualization engine. Powered by precise measurement and an intelligent AutoEQ algorithm, it creates an integrated solution for acoustic analysis and calibration.
-
+**AudioSight** is a professional audio platform with a flexible, programmable DSP architecture and a full‑featured visualization engine. Powered by precise measurement and an intelligent AutoEQ algorithm, it creates an integrated solution for acoustic measurement, analysis, and correction.
 ---
 
 ## 🎯 Core Philosophy: Scientific Tuning
